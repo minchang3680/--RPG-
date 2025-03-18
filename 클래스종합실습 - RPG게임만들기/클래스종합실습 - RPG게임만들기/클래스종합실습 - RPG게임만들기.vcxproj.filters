@@ -13,18 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Charater">
+      <UniqueIdentifier>{385638b8-474d-40a5-9ff2-c84bfdf824e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Warrior">
+      <UniqueIdentifier>{89c3650b-1e0d-4913-9d36-c23621ade70f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Mage">
+      <UniqueIdentifier>{986472bd-b8b2-4246-93b0-e76c96cd5c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Rogue">
+      <UniqueIdentifier>{3331d1f8-3ebf-4ccd-8502-b5cb29f13701}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FileName.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="car.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="Character.cpp">
+      <Filter>소스 파일\Charater</Filter>
+    </ClCompile>
+    <ClCompile Include="Warrior.cpp">
+      <Filter>소스 파일\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="Mage.cpp">
+      <Filter>소스 파일\Mage</Filter>
+    </ClCompile>
+    <ClCompile Include="Rogue.cpp">
+      <Filter>소스 파일\Rogue</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="car.h">
-      <Filter>소스 파일</Filter>
+    <ClInclude Include="Character.h">
+      <Filter>소스 파일\Charater</Filter>
+    </ClInclude>
+    <ClInclude Include="Warrior.h">
+      <Filter>소스 파일\Warrior</Filter>
+    </ClInclude>
+    <ClInclude Include="Mage.h">
+      <Filter>소스 파일\Mage</Filter>
+    </ClInclude>
+    <ClInclude Include="Rogue.h">
+      <Filter>소스 파일\Rogue</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
