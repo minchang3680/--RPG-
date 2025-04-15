@@ -1,0 +1,5 @@
+DB 인스턴스 식별자 
+him-mesDB
+내기억상 비밀 번호가 himmes3680
+초기 데이터 베이스 이름
+him_mes_db
